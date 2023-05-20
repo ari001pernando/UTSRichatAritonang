@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#banner {
+
+  background-image: url(../img/RICAT.jpeg);
+
+
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+
+  color: #fff;
+}
+
+.overlay {
+  background-color: black;
+  background-size: cover;
+  background-position: center; 
+  text-align: center;
+  padding: 120px 0;
+  
+
+  opacity: 0.5; /* Tingkat transparansi latar belakang hitam: 0 hingga 1 */
+}
+
+
+#banner h1{
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+}
+
+#banner p{
+
+    font-size: 40px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#tentang {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+  text-align: center;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
